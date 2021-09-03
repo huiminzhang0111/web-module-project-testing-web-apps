@@ -120,8 +120,8 @@ const ContactForm = () => {
         </div>
 
         {displayData && <DisplayComponent form={form}/>}
-
-        <input type="submit" />
+        <button>SUBMIT</button> 
+        {/* <input type="submit" /> */}
       </form>
     </div>
   );
